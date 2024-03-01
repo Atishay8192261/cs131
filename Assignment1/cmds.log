@@ -1,0 +1,310 @@
+    1  passwd
+    2  wget www.github.com
+    3  sudo apt-get update
+    4  git status
+    5  clone git@github.com:Atishay8192261/cs131.git
+    6  git status
+    7  clear
+    8  git clone https://github.com/Atishay8192261/cs131.git
+    9  mkdir cs131
+   10  mkdir Worksheet1
+   11  cd Worksheet1
+   12  clearr
+   13  clear
+   14  cd
+   15  git clone https://github.com/Atishay8192261/cs131.git
+   16  clear
+   17  mkdir -p ~/cs131/Worksheet1
+   18  cd ~/cs131/Worksheet1
+   19  git init
+   20  git config --global user.name "Atishay8192261"
+   21  git config --global user.email "smartatishay09@gmail.com"
+   22  git config --global user.name "Atishay8192261"
+   23  ssh-keygen -t ed25519 -C "youremail@example.com"
+   24  mkdir -p ~/cs131/Worksheet1
+   25  cd ~/cs131/Worksheet1
+   26  git init
+   27  git config --global user.name "Atishay8192261"
+   28  git config --global user.email "smartatishay09@gmail.com"
+   29  ssh-keygen -t ed25519 -C "smartatishay09@gmail.com"
+   30  cat ~/.ssh/id_ed25519.pub
+   31  git remote add origin git@github.com:Atishay8192261/cs131.git
+   32  clear
+   33  git remote add origin git@github.com:Atishay8192261/cs131.git
+   34  mkdir Worksheet1
+   35  cd Worksheet1
+   36  history > cmds.log
+   37  git add cmds.log
+   38  git commit -m "Added command history log"
+   39  git push -u origin master
+   40  git push -u origin main
+   41  git add cmds.log
+   42  git commit -m "Added history command log"
+   43  clear
+   44  Last failed login: Thu Feb  8 19:24:17 EST 2024 from 172.29.97.230 on ssh:notty
+   45  There was 1 failed login attempt since the last successful login.
+   46  Last login: Thu Feb  8 18:37:31 2024 from 172.29.97.230
+   47  [atishaysp24@sjsu ~]$ mkdir -p ~/cs131/Worksheet1
+   48  [atishaysp24@sjsu ~]$ cd ~/cs131/Worksheet1
+   49  [atishaysp24@sjsu Worksheet1]$ git config --global user.email "smartatishay09@gmail.com"
+   50  [atishaysp24@sjsu Worksheet1]$ ssh-keygen -t ed25519 -C "smartatishay09@gmail.com"
+   51  Generating public/private ed25519 key pair.
+   52  Enter file in which to save the key (/mnt/scratch/FA23_CS131_Ashish/atishaysp24/.ssh/id_ed25519): 
+   53  Created directory '/mnt/scratch/FA23_CS131_Ashish/atishaysp24/.ssh'.
+   54  Enter passphrase (empty for no passphrase): 
+   55  Enter same passphrase again: 
+   56  Your identification has been saved in /mnt/scratch/FA23_CS131_Ashish/atishaysp24/.ssh/id_ed25519.
+   57  Your public key has been saved in /mnt/scratch/FA23_CS131_Ashish/atishaysp24/.ssh/id_ed25519.pub.
+   58  The key fingerprint is:
+   59  SHA256:p4B94TSFlU5Ilsaq1DW+X5mAfeEV7GyNj8AHo9WC+fM smartatishay09@gmail.com
+   60  The key's randomart image is:
+   61  +--[ED25519 256]--+
+   62  |       oo=o+ o.. |
+   63  |       .O.= * +  |
+   64  |     . =+* * O o |
+   65  |    .ooooo= B * .|
+   66  |   ...o S..o O o |
+   67  |    .  o.o  + E .|
+   68  |        .. .     |
+   69  |          .      |
+   70  |                 |
+   71  +----[SHA256]-----+
+   72  [atishaysp24@sjsu Worksheet1]$ cat ~/.ssh/id_ed25519.pub
+   73  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEFRa5G2QOuUyt4or0aD6I+rl7drEJcZ2qwVFeyinTei smartatishay09@gmail.com
+   74  [atishaysp24@sjsu Worksheet1]$ git remote add origin git@github.com:Atishay8192261/cs131.git
+   75  [atishaysp24@sjsu Worksheet1]$ clear
+   76  [atishaysp24@sjsu Worksheet1]$ git remote add origin git@github.com:Atishay8192261/cs131.git
+   77  error: remote origin already exists.
+   78  [atishaysp24@sjsu Worksheet1]$ mkdir Worksheet1
+   79  [atishaysp24@sjsu Worksheet1]$ cd Worksheet1
+   80  [atishaysp24@sjsu Worksheet1]$ history > cmds.log
+   81  [atishaysp24@sjsu Worksheet1]$ git add cmds.log
+   82  [atishaysp24@sjsu Worksheet1]$ git commit -m "Added command history log"
+   83  [master (root-commit) 1215c9f] Added command history log
+   84   1 file changed, 36 insertions(+)
+   85   create mode 100644 Worksheet1/cmds.log
+   86  [atishaysp24@sjsu Worksheet1]$ git push -u origin master
+   87  The authenticity of host 'github.com (140.82.113.4)' can't be established.
+   88  ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+   89  Are you sure you want to continue connecting (yes/no/[fingerprint])? yes             
+   90  Warning: Permanently added 'github.com,140.82.113.4' (ECDSA) to the list of known hosts.
+   91  ERROR: Repository not found.
+   92  fatal: Could not read from remote repository.
+   93  Please make sure you have the correct access rights
+   94  and the repository exists.
+   95  [atishaysp24@sjsu Worksheet1]$ git push -u origin main
+   96  error: src refspec main does not match any
+   97  error: failed to push some refs to 'github.com:Atishay8192261/cs131.git'
+   98  [atishaysp24@sjsu Worksheet1]$ git add cmds.log
+   99  [atishaysp24@sjsu Worksheet1]$ git commit -m "Added history command log"
+  100  On branch master
+  101  Untracked files:
+  102    (use "git add <file>..." to include in what will be committed)
+  103  ../clear
+  104  ../clear.pub
+  105  nothing added to commit but untracked files present (use "git add" to track)
+  106  [atishaysp24@sjsu Worksheet1]$ 
+  107  ssh-keygen -t ed25519 -C "smartatishay09@gmail.com"
+  108  eval "$(ssh-agent -s)"
+  109  ssh-add ~/.ssh/id_ed25519
+  110  cat ~/.ssh/id_ed25519.pub
+  111  cd ~/cs131/Worksheet1
+  112  git init
+  113  git config --global user.email "smartatishay09@gmail.com"
+  114  git config --global user.name "Atishay8192261"
+  115  git remote add origin git@github.com:Atishay8192261/cs131.git
+  116  git remote set-url origin git@github.com:Atishay8192261/cs131.git
+  117  git add cmds.log
+  118  history > cmds.log
+  119  git add cmds.log
+  120  git commit -m "Added history of command log"
+  121  git push -u origin main
+  122  git branch
+  123  git branch -m main
+  124  git push -u origin main
+  125  history > cmds.log
+  126  git add cmds.log
+  127  got commit -m "Added "
+  128  git commit -m "Added histroy of command logs"
+  129  git push -u origin main
+  130  git status
+  131  git clone https://github.com/Atishay8192261/cs131.git
+  132  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  133  grep "United States" Global\ YouTube\ Statistics.csv
+  134  grep "Music" Global\ YouTube\ Statistics..csv
+  135  grep "Music" Global\ YouTube\ Statistics.csv
+  136  grep "Music" Global\ YouTube\ Statistics.csv | wc -l > counts.txt
+  137  grep "Music" Global\ YouTube\ Statistics.csv | wc -w >> counts.txt
+  138  vi counts.txt
+  139  history > cmds.log
+  140  cd
+  141  git clone https://github.com/Atishay8192261/cs131.git
+  142  mkdir Worksheet2
+  143  git clone git@github.com: Atishay8192261/cs131.git
+  144  git clone https://github.com/Atishay8192261/cs131.git
+  145  ls
+  146  ls cs131/
+  147  tree cs131/
+  148  ls -lah cs131/
+  149  cd cs131/
+  150  ls
+  151  mkdir Worksheet2
+  152  ls
+  153  cd ..
+  154  cd Worksheet2
+  155  ls ../../
+  156  ls ../..
+  157  cd ../../
+  158  ls
+  159  pwd
+  160  cd atishaysp24/
+  161  ls
+  162  history > cmds.log 
+  163  mv cmds.log counts.txt cs131/Worksheet2/
+  164  cd cs131/Worksheet
+  165  cd cs131
+  166  git status
+  167  git add .
+  168  ls -lah Worksheet
+  169  ls -lah Worksheet1/
+  170  pwd
+  171  cd Worksheet1
+  172  ls
+  173  ls Worksheet1/
+  174  pwd
+  175  ls -lah 
+  176  ls -lah Worksheet1/
+  177  ls
+  178  rm -rf Worksheet1/ clear clear.pub
+  179  ls
+  180  ls -lah cs131/
+  181  ls -lah cs131/Worksheet1/
+  182  cd ..
+  183  ls
+  184  cd ..
+  185  ls
+  186  ls Worksheet2
+  187  rm Worksheet2
+  188  rmdir Worksheet2
+  189  ls
+  190  mv cs131/Worksheet2/ .
+  191  ls
+  192  ls Worksheet1
+  193  rmdir Worksheet1
+  194  ls
+  195  rm -rf cs131/
+  196  git clone https://github.com/Atishay8192261/cs131.git
+  197  ls Worksheet2/
+  198  mv Worksheet2/ cs131/
+  199  cd cs131/
+  200  ls
+  201  git status
+  202  git add .
+  203  git status
+  204  git commit -m "the history logs has been added and the count file has been updated" 
+  205  git status
+  206  git push
+  207  cat ~/.ssh/config
+  208  pwd
+  209  cd ..
+  210  pwd
+  211  cd .ssh/
+  212  ls -lah
+  213  vim Host github.com
+  214  vim config
+  215  ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  216  cd ../cs131/
+  217  git push
+  218  ls -al ~/.ssh
+  219  ssh -T git@github.com
+  220  git push origin main
+  221  cat ~/.ssh/id_ed25519.pub | pbcopy
+  222  xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+  223  cd ..
+  224  cd cs131
+  225  git remote -v
+  226  git remote set-url origin git@github.com:Atishay8192261/cs131.git
+  227  ssh -T git@github.com
+  228  chmod 700 ~/.ssh
+  229  chmod 600 ~/.ssh/config
+  230  chmod 600 ~/.ssh/id_ed25519
+  231  chmod 644 ~/.ssh/id_ed25519.pub
+  232  ssh -T git@github.com
+  233  ls -l ~/.ssh
+  234  sudo chown yourusername:yourusername ~/.ssh -R
+  235  sudo chown Atishay8192261:Atishay8192261 ~/.ssh -R
+  236  git push
+  237  ls
+  238  cd Worksheet2
+  239  ls
+  240  git commit -m "history added and text file updated"
+  241  git push
+  242  ls
+  243  pwd
+  244  ls .ssh/
+  245  ls
+  246  cd cs131/
+  247  git push
+  248  ls
+  249  ls -lah
+  250  vim ../.ssh/config 
+  251  git push
+  252  git clone  https://github.com/Atishay8192261/cs131.git
+  253  cd cs131
+  254  ls
+  255  vi Worksheet2
+  256  git commit -m
+  257  git commit
+  258  git push
+  259  git push -u origin main
+  260  git push
+  261  vi Worksheet2
+  262  git status
+  263  git add
+  264  git add .
+  265  git commit -m "variable names updated, last version had wrong names"
+  266  git push
+  267  wget www.github.com
+  268  git config --global user.name “atishay8192261"
+git config --global user.name “Atishay8192261"
+  269  git config --global user.email "smartatishay09@gmail.com"
+  270  git clone https://github.com/Atishay8192261/cs131.git
+  271  cd cs131
+#######################################
+ ANSWER 1
+  272  mkdir Assignment1
+  273  cd Assignment1
+#######################################
+ ANSWER 2
+  274  echo $SHELL
+#######################################
+ ANSWER 3
+  275  echo $HOME
+#######################################
+ ANSWER 3
+  276  id
+#######################################
+ ANSWER 4
+  277  mkdir myDir
+  278  chmod u-w myDir
+#######################################
+ ANSWER 5
+  279  mkdir myDir2
+  280  mkdir myDir3
+#######################################
+ ANSWER 6
+  281  touch myDir2/myFile.txt
+  282  mv myDir2/myFile.txt myDir3/
+#######################################
+ ANSWER 6
+  283  free -m
+#######################################
+ ANSWER 9
+  284  cat /etc/*release
+#######################################
+ ANSWER 10
+  285  ls -l /etc/*release
+#######################################
+
+  286  cmds.log > history
+  287  history > cmds.log
