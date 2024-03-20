@@ -312,6 +312,9 @@
   312  git commit -m "changes made"
   313  git git push origin main
   314  git push origin main
+
+--------------------------------ASSIGNMENT2------------------------------------------------
+
   315  gitgit config --global user.name "Atishay8192261"
   316  git config --global user.name "Atishay8192261"
   317  git config --global user.email "smartatishay09@gmail.com"
@@ -324,17 +327,34 @@
   324  ls
   325  mkdir Assignment2
   326  cd Assignment2
+
+TASK-1 
+
   327  find /etc -type f > one.txt 2> two.txt
   328  cat one.txt
   329  cat two.txt
   330  vi Assignment2.txt
+
+TASK-2
+ 
   331  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
   332  cut -d',' -f20,21 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3
   333  vi Assignment2.txt
+
+TASK-3
+
   334  ps -u atishaysp24
   335  vi Assignment2.txt
+
+TASK-4
+
   336  vi file.txt
   337  vi Assignment2.txt
+
+TASK-5
+
   338  ps -eo pid,cmd | grep -E '\b(systemd|init)\b'
   339  vi Assignment2.txt
+
+
   340  history > cmds.log
