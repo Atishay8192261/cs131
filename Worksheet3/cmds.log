@@ -1,0 +1,17 @@
+  351  git config --global user.name "atishay8192261"
+  352  git config --global user.email "smartatishay09@gmail.com"
+  353  cd cs131/
+  354  mkdir Worksheet3
+  355  cd Worksheet3
+  356  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  357  sort -t',' -k16,16nr Global\ YouTube\ Statistics.csv > sorted_youtube.csv
+  358  grep "United States" sorted_youtube.csv | head -n 1 > highest_monthly_earnings_usa.txt
+  359  grep "United Kingdom" sorted_youtube.csv | head -n 1 > highest_monthly_earnings_uk.txt
+  360  grep "India" sorted_youtube.csv | head -n 1 > highest_monthly_earnings_india.txt
+  361  cat highest_monthly_earnings_usa.txt highest_monthly_earnings_uk.txt highest_monthly_earnings_india.txt > ws3.txt
+  362  sort -t',' -k3,3nr Global\ YouTube\ Statistics.csv > sorted_subscribers.csv
+  363  grep "Sports" sorted_subscribers.csv | head -n 1 >> ws3.txt
+  364  grep "Education" sorted_subscribers.csv | head -n 1 >> ws3.txt
+  365  grep "Entertainment" sorted_subscribers.csv | head -n 1 >> ws3.txt
+  366  vi ws3.txt
+  367  history > cmds.log
