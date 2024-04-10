@@ -1,0 +1,109 @@
+Script started on 2024-04-10 16:33:59-04:00
+bash-4.4$ msn [K[K[Kan script
+man: can't set the locale; make sure $LC_* and $LANG are correct
+[?1049h[22;0;0t[?1h=SCRIPT(1)                          User Commands                         SCRIPT(1)[m
+[m
+[1mNAME[0m[m
+       script - make typescript of terminal session[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mscript [22m[options] [[4mfile[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mscript  [22mmakes a typescript of everything displayed on your terminal.  It is[m
+       useful for students who need a hardcopy record of an interactive session as[m
+       proof  of  an  assignment,  as the typescript file can be printed out later[m
+       with [1mlpr[22m(1).[m
+[m
+       If the argument [4mfile[24m is given, [1mscript [22msaves the dialogue in this [4mfile[24m.   If[m
+       no filename is given, the dialogue is saved in the file [1mtypescript[22m.[m
+[m
+[1mOPTIONS[0m[m
+       [1m-a[22m, [1m--append[0m[m
+              Append the output to [4mfile[24m or to [1mtypescript[22m, retaining the prior con-[m
+              tents.[m
+[m
+       [1m-c[22m, [1m--command [4m[22mcommand[0m[m
+              Run the [4mcommand[24m rather than an interactive  shell.   This  makes  it[m
+              easy  for  a  script to capture the output of a program that behaves[m
+[7m Manual page script(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              differently when its stdout is not a tty.[m
+[7m Manual page script(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page script(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-e[22m, [1m--return[0m[m
+[7m Manual page script(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Return the exit code of the child process.  Uses the same format  as[m
+[7m Manual page script(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              bash termination on signal termination exit code is 128+n.[m
+[7m Manual page script(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page script(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[22m, [1m--flush[0m[m
+[7m Manual page script(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Flush  output  after  each write.  This is nice for telecooperation:[m
+[7m Manual page script(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              one person does `mkfifo foo; script -f foo', and another can  super-[m
+[7m Manual page script(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              vise real-time what is being done using `cat foo'.[m
+[7m Manual page script(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page script(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--force[0m[m
+[7m Manual page script(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Allow  the  default output destination, i.e. the typescript file, to[m
+[7m Manual page script(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              be a hard or symbolic link.  The  command  will  follow  a  symbolic[m
+[7m Manual page script(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              link.[m
+[7m Manual page script(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page script(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-q[22m, [1m--quiet[0m[m
+[7m Manual page script(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Be quiet (do not write start and done messages to standard output).[m
+[7m Manual page script(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page script(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[22m[[4mfile[24m], [1m--timing[22m[=[4mfile[24m][m
+[7m Manual page script(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Output  timing  data to standard error, or to [4mfile[24m when given.  This[m
+[7m Manual page script(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              data contains two fields, separated by a  space.   The  first  field[m
+[7m Manual page script(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              indicates how much time elapsed since the previous output.  The sec-[m
+[7m Manual page script(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ond field indicates how many characters were output this time.  This[m
+[7m Manual page script(1) line 25 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0tbash-4.4$ vi ~/.bashrc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;26r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[26;1H"~/.bashrc" 3L, 43C[1;1Halias l='ls -ltr'
+alias w='ls -l | wc -l'
+
+[94m~                                                                                    [5;1H~                                                                                    [6;1H~                                                                                    [7;1H~                                                                                    [8;1H~                                                                                    [9;1H~                                                                                    [10;1H~                                                                                    [11;1H~                                                                                    [12;1H~                                                                                    [13;1H~                                                                                    [14;1H~                                                                                    [15;1H~                                                                                    [16;1H~                                                                                    [17;1H~                                                                                    [18;1H~                                                                                    [19;1H~                                                                                    [20;1H~                                                                                    [21;1H~                                                                                    [22;1H~                                                                                    [23;1H~                                                                                    [24;1H~                                                                                    [25;1H~                                                                                    [1;1H[?25h[?25l[m[26;1H[K[26;1H:[?2004h[?25hi[?25l[26;2H[K[26;2H[?25h[?25l[26;1H[K[1;1H[?25h[?25l[26;1H:[?2004h[?25hi[?25l[26;2H[K[26;2H[?25h[?25l[26;1H[K[1;1H[?25h[?25l[26;1H[1m-- INSERT --[1;1H[?25h
+[malias w='ls -l | wc -l'[?25l[2;23H[K[2;23H[?25h[?25l[2;22H[K[2;22H[?25h[?25l[2;21H[K[2;21H[?25h[?25l-[?25h[?25ll[?25h[?25l'[?25h[26;1H[K[2;23H[?25l[?25h[?25l[26;1H:[?2004h[?25hwq[?25l[?2004l"~/.bashrc" 3L, 43C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ source ~/.bashrrc[K[Kc
+bash-4.4$ l
+total 16
+-rw-rw-r-- 1 atishaysp24 atishaysp24 2821 Apr 10 16:16 United_States.txt
+-rw-rw-r-- 1 atishaysp24 atishaysp24 1577 Apr 10 16:16 India.txt
+-rw-rw-r-- 1 atishaysp24 atishaysp24 8192 Apr 10 16:37 ws4.txt
+bash-4.4$ w
+4
+bash-4.4$ mkdir -p Worksheet4.[K/Subscribers
+bash-4.4$ cd Worksheet4
+bash-4.4$ grep "United States" 'Global YouTube Statistics.csv' | cut -d',' -f3 > Subsccribers/United_States.txt
+grep: Global YouTube Statistics.csv: No such file or directory
+bash-4.4$ grep "India" 'Global YouTube Statistics.csv' | cut -d',' -f3 > Subscribers/IIndia.txt
+grep: Global YouTube Statistics.csv: No such file or directory
+bash-4.4$ cd Subscribers
+bash-4.4$ awk '{ sum += $1; count++ } END { print sum/count }' United_States.txt > ..//ws4_means.txt
+awk: cmd. line:1: fatal: division by zero attempted
+bash-4.4$ awk '{ sum += $1; count++ } END { print sum/count }' India.txt >> ../ws4_meaans.txt
+awk: cmd. line:1: fatal: division by zero attempted
+bash-4.4$ wget [K[K[K[K[Kcd Worksheet4
+bash: cd: Worksheet4: No such file or directory
+bash-4.4$ mkdir -p Worksheet4/Subscribers
+bash-4.4$ mkdir -p Worksheet4/Subscribers[C[C[C[C[C[C[C[C[C[C[18Pcd Worksheet4
+bash-4.4$ grep "United States" 'Global YouTube Statistics.csv' | cut -d',' -f3 > Subsccribers/United_States.txt
+grep: Global YouTube Statistics.csv: No such file or directory
+bash-4.4$ grep "India" 'Global YouTube Statistics.csv' | cut -d',' -f3 > Subscribers/IIndia.txt
+grep: Global YouTube Statistics.csv: No such file or directory
+bash-4.4$ cd Worksheet4
+bash: cd: Worksheet4: No such file or directory
+bash-4.4$ cd.[K ,[K.. [K
+bash-4.4$ cd Worksheet4
+bash-4.4$ wget [K[K[K[K[Kwget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%%20YouTube%20Statistics.csv
+--2024-04-10 16:44:50--  https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 200279 (196K) [text/plain]
+Saving to: 'Global YouTube Statistics.csv'
+
+           Global You   0%[                       ]       0  --.-KB/s               Global YouTube Statis 100%[======================>] 195.58K  --.-KB/s    in 0.009s  
+
+2024-04-10 16:44:50 (21.4 MB/s) - 'Global YouTube Statistics.csv' saved [200279/200279]
+
+bash-4.4$ grep "United States" 'Global YouTube Statistics.csv' | cut -d',' -f3 > Subsccribers/United_States.txt
+bash-4.4$ grep "India" 'Global YouTube Statistics.csv' | cut -d',' -f3 > Subscribers/IIndia.txt
+bash-4.4$ cd Subscribers
+bash-4.4$ awk '{ sum += $1; count++ } END { print sum/count }' United_States.txt > ..//ws4_means.txt
+bash-4.4$ awk '{ sum += $1; count++ } END { print sum/count }' India.txt >> ../ws4_meaans.txt
+bash-4.4$ exit
+
+Script done on 2024-04-10 16:45:36-04:00
