@@ -641,3 +641,48 @@
   641  echo "Comedy: $(wc -l < Comedy.txt)" >> ws5.txt
   642  cat ws5.txt
   643  history > cmds.log
+  644  vi Music.txt
+  645  git status
+  646  git add .
+  647  git commit -m "intial commit"
+  648  vi script.sh
+  649  rm -rf script.sh
+  650  rm Music.txt
+  651  git status
+  652  vi script.sh
+  653  chmod +x script.sh
+  654  ./script.sh
+  655  rm -rf United States
+  656  pwd
+  657  cd ..
+  658  pwd
+  659  cd United States
+  660  rm -rf Worksheet5
+  661  cd ..
+  662  ls cs131
+  663  ls
+  664  cd Worrksheet5
+  665  cd Worksheet5
+  666  ls
+  667  rm -rf Worksheet5
+  668  ls
+  669  rm Worksheet5
+  670  cd ..
+  671  rm Worksheet5
+  672  rm -rf Worksheet5
+  673  ls
+  674  mkdir Worksheet5
+  675  cd Worksheet5
+  676  ls
+  677  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  678  mkdir -p "United States"
+  679  vi script.sh
+  680  chmod +x script.sh
+  681  ./script.sh
+  682  cd "United States"
+  683  echo "Music: $(wc -l < Music.txt)" > ws5.txt
+  684  echo "Entertainment: $(wc -l < Entertainment.txt)" >> ws5.txt
+  685  echo "Gaming: $(wc -l < Gaming.txt)" >> ws5.txt
+  686  echo "Comedy: $(wc -l < Comedy.txt)" >> ws5.txt
+  687  cat ws5.txt
+  688  history > cmds.log
